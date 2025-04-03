@@ -28,6 +28,11 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <div className="card">
+        <h1 className="text-4xl font-bold text-center text-green-100">
+          Hello, Tailwind + Deno!
+        </h1>
+      </div>
     </>
   )
 }
