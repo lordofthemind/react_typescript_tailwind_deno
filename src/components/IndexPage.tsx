@@ -5,8 +5,14 @@ export default function IndexPage() {
     return (
         <Base title="Home">
             <div className="bg-white rounded-2xl shadow-xl p-10 max-w-lg w-full text-center space-y-6 mx-auto">
-                <h1 className="text-4xl font-bold text-green-700 mb-4">Go ✨ Templ ⚡ Tailwind 💨 HTMX 🚀</h1>
-                <p className="text-green-900">Welcome to your starter stack! 🎉</p>
+                <h1 className="text-4xl font-bold text-green-700 mb-4">
+                    React ⚛️ TypeScript 🧠 Tailwind 💨 Deno 🦕
+                </h1>
+
+                <p className="text-green-900">
+                    Welcome to your starter stack! 🎉
+                </p>
+
 
                 <div className="space-y-4">
                     <button

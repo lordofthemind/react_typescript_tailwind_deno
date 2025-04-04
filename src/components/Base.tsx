@@ -1,4 +1,3 @@
-// src/components/Base.tsx
 import Nav from './Nav'
 import Footer from './Footer'
 
@@ -12,9 +11,9 @@ export default function Base({ title, children }: BaseProps) {
 
     return (
         <div className="bg-gradient-to-r from-green-100 via-green-200 to-green-300 min-h-screen">
-            <div className="max-w-4xl mx-auto p-6">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-6">
                 <Nav />
-                <main>{children}</main>
+                <main className="w-full">{children}</main>
                 <Footer />
             </div>
         </div>
