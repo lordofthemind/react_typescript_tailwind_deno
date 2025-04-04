@@ -7,7 +7,7 @@ export default function GreetPage() {
 
     return (
         <Base title="Greet">
-            <div className="bg-white rounded-2xl shadow-xl p-10 max-w-lg w-full text-center space-y-6 mx-auto">
+            <div className="bg-white rounded-2xl shadow-xl px-4 py-8 sm:px-6 md:px-10 max-w-xl w-full text-center space-y-6 mx-auto">
                 <h1 className="text-4xl font-bold text-green-700 mb-4">Greetings!</h1>
 
                 <div className="space-y-4">
