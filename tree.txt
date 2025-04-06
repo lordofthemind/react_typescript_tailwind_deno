@@ -5,22 +5,35 @@
 ├── index.html
 ├── package.json
 ├── public
-│   └── vite.svg
 ├── src
 │   ├── App.css
 │   ├── App.tsx
 │   ├── assets
 │   │   └── react.svg
-│   ├── components 
+│   ├── components
 │   │   ├── AboutPage.tsx
+│   │   ├── AddTodoForm.tsx
 │   │   ├── Base.tsx
+│   │   ├── ContactPage.tsx
+│   │   ├── FeaturesPage.tsx
 │   │   ├── Footer.tsx
 │   │   ├── GreetPage.tsx
 │   │   ├── IndexPage.tsx
 │   │   ├── Nav.tsx
-│   │   └── SignupPage.tsx
+│   │   ├── SettingsPage.tsx
+│   │   ├── SignupPage.tsx
+│   │   ├── TodoItem.tsx
+│   │   ├── TodoList.tsx
+│   │   ├── TodoPage.tsx
+│   │   └── TodoSummary.tsx
+│   ├── data
+│   │   └── Todos.ts
+│   ├── hooks
+│   │   └── useTodos.ts
 │   ├── index.css
 │   ├── main.tsx
+│   ├── types
+│   │   └── todo.ts
 │   └── vite-env.d.ts
 ├── tree.txt
 ├── tsconfig.app.json
@@ -28,4 +41,4 @@
 ├── tsconfig.node.json
 └── vite.config.ts
 
-5 directories, 24 files
+8 directories, 34 files

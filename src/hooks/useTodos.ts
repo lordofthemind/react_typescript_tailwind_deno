@@ -19,7 +19,6 @@ export default function useTodos() {
                     (todo.id === id ? { ...todo, completed } : todo)
                 )
         )
-        // alert(`Todo with id ${id} is now ${completed ? "completed" : "not completed"}`)
     }
 
     function addTodo(title: string) {
